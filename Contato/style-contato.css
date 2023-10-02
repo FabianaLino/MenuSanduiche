@@ -24,9 +24,30 @@
     color: white;
 }
 
+.content {
+    display: flex;
+    margin: 20px;
+    text-align: center;
+    flex-direction: column;
+    font-size: 25px;
+    line-height: 2;
+}
+
+.listaDeContato {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    line-height: 2;
+}
+
+.icon {
+    font-size: 25px;
+    margin-right: 5px;
+}
+
 footer {
-    background-color: rgba(92, 6, 6, 0.9);
     width: 100%;
+    background-color: rgba(92, 6, 6, 0.9);
     height: 80px;
     text-align: center;
     padding: 30px;

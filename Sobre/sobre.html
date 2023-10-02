@@ -16,17 +16,23 @@
                     crossorigin="anonymous"
                     referrerpolicy="no-referrer"
                 />
-                <button class="nav-button" onclick="openNav()">
+                <button class="nav-button" onclick="goToHomePage()">
                     <i class="fa-solid fa-bars fa-2x"></i>
                 </button>
             </div>
         </header>
         <main>
             <div class="foto-perfil">
-                <img id="dev" src="images/foto-perfil.jpg" alt="Foto perfil" />
+                <img
+                    id="dev"
+                    src="file:///C:/Users/Fabiana%20Lino/Desktop/MenuSanduiche/images/fotoperfil.jpg"
+                    width="320"
+                    height="350"
+                    alt="Foto perfil"
+                />
             </div>
             <section id="sobre" class="content">
-                <h2>Sobre mim</h2>
+                <h2>Sobre mim...</h2>
                 <p>
                     Fotógafa profissional que se dedica a arte e a prática de
                     capturar imagens por meio de uma câmera. Tenho a habilidade
@@ -40,8 +46,9 @@
         </footer>
         <script>
             function goToHomePage() {
-                // Redireciona o navegador para a página principal (index.html)
-                window.location.href = "index.html";
+                var paginaInicial =
+                    "file:///C:/Users/Fabiana%20Lino/Desktop/MenuSanduiche/index.html";
+                window.location.href = paginaInicial;
             }
         </script>
     </body>

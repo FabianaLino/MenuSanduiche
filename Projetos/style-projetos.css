@@ -27,19 +27,25 @@
 .content {
     display: block;
     display: block;
-    background-color: darkgrey;
     height: 355px;
     text-align: center;
-    margin: 55px;
+    margin: 20px;
 }
 
 .projetos {
     display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fotos-projetos {
+    margin: 10px;
 }
 
 footer {
-    background-color: rgba(92, 6, 6, 0.9);
     width: 100%;
+    background-color: rgba(92, 6, 6, 0.9);
     height: 80px;
     text-align: center;
     padding: 30px;

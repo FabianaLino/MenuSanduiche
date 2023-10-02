@@ -16,40 +16,43 @@
                     crossorigin="anonymous"
                     referrerpolicy="no-referrer"
                 />
-                <button class="nav-button" onclick="openNav()">
+                <button class="nav-button" onclick="goToHomePage()">
                     <i class="fa-solid fa-bars fa-2x"></i>
                 </button>
             </div>
         </header>
         <section id="contato" class="content">
-            <h2>Contato</h2>
+            <h2>Contato...</h2>
             <p>
                 Você pode entrar em contato comigo por e-mail e também me
                 encontrar no LinkedIn e no GitHub:
             </p>
-            <ul>
-                <li>
-                    Email:
-                    <a href="mailto:fabianalino@icloud.com"
-                        >fabianalino@icloud.com</a
-                    >
-                </li>
-                <li>
-                    <a
-                        href="https://www.linkedin.com/in/fabiana-lino/"
-                        target="_blank"
-                        >LinkedIn</a
-                    >
-                </li>
-                <li>
-                    <a href="https://github.com/FabianaLino" target="_blank"
-                        >GitHub</a
-                    >
-                </li>
+            <ul class="listaDeContato">
+                <a href="mailto:fabianalino@icloud.com">
+                    <i class="icon fas fa-envelope"></i> fabianalino@icloud.com
+                </a>
+
+                <a
+                    href="https://www.linkedin.com/in/fabiana-lino/"
+                    target="_blank"
+                >
+                    <i class="icon fab fa-linkedin"></i> LinkedIn
+                </a>
+
+                <a href="https://github.com/FabianaLino" target="_blank">
+                    <i class="icon fab fa-github"></i> GitHub
+                </a>
             </ul>
         </section>
         <footer>
             <p>&copy; 2023 Desenvolvido por Fabiana Lino</p>
         </footer>
+        <script>
+            function goToHomePage() {
+                var paginaInicial =
+                    "file:///C:/Users/Fabiana%20Lino/Desktop/MenuSanduiche/index.html";
+                window.location.href = paginaInicial;
+            }
+        </script>
     </body>
 </html>
