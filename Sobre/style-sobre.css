@@ -59,29 +59,18 @@ footer {
     left: 0;
     bottom: 0;
 }
-/* Media queries para dispositivos com largura de tela menor que 768px */
-@media (max-width: 767px) {
+
+/* Media query para telas menores que 768px */
+@media (max-width: 768px) {
     .foto-perfil {
         width: 100%;
         height: auto;
-        text-align: center;
-        display: flex;
+        position: relative;
+        justify-content: center;
     }
 
     .content {
-        padding-left: 0;
-        margin: 20px;
-    }
-
-    footer {
-        padding: 10px;
-        height: auto;
-    }
-}
-
-/* Media queries para dispositivos com largura de tela menor que 480px */
-@media (max-width: 479px) {
-    .content {
+        padding: 20px
         font-size: 24px;
     }
 }

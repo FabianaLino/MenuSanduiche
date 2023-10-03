@@ -26,7 +26,6 @@
 
 .content {
     display: block;
-    display: block;
     height: 355px;
     text-align: center;
     margin: 20px;
@@ -52,4 +51,15 @@ footer {
     position: fixed;
     left: 0;
     bottom: 0;
+}
+
+/* Media query para telas menores que 768px */
+@media (max-width: 767px) {
+    .content {
+        font-size: 20px;
+    }
+
+    .fotos-projetos {
+        flex-basis: 100%; /* Uma coluna em telas menores */
+    }
 }
