@@ -4,6 +4,7 @@
 
 ## Segue abaixo layout da aplicação:
 
+![Alt text](images/layoutmenu1.PNG) ![Alt text](images/layoutmenu2.PNG) ![Alt text](images/layoutmenu3.PNG) ![Alt text](images/layoutmenu4.PNG)
 <video src="images/Evolu%C3%A7%C3%A3oMenuSanduiche.mp4" controls title="Title"></video>
 
 ## Projeto criado por:
